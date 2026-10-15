@@ -4,19 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>unnamed</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body  style="margin:0; background-color:#ffffff;">
-    <header id="top">
-      <img src="1ogo.png" alt="Логотип сайта 5uchn34tk1d">
-      <nav style="color:#e31313;">
-          <a href="index.html#links">Гиперссылки</a> |
-          <a href="form.html">Форма</a> |
-          <a href="index.html#tbl">Таблица</a>
-      </nav>
+<body class="d-flex flex-column min-vh-100">
+    <header id="top" class="container-fluid py-2">
+      <div class="row">
+        <div class="col-12 col-md-3 text-center text-md-start">
+          <img src="1ogo.png" alt="Логотип сайта 5uchn34tk1d" class="m-2">
+        </div>
+        <div class="col-12 col-md-6 mx-md-auto">
+          <nav class="p-2 my-4">
+              <a href="index.html#links">Гиперссылки</a> |
+              <a href="form.html">Форма</a> |
+              <a href="index.html#tbl">Таблица</a>
+          </nav>
+        </div>
+      </div>
     </header>
 
-    <main style="margin-left:10px;">
+    <main class="container-fluid flex-grow-1">
+      <div class="row">
+        <div class="col-12">
     <form action="/" method="POST">
     <h1>Форма для заполнения</h1>
         <label>
@@ -70,11 +79,13 @@
         <br>
       <input type="submit" value="Сохранить">
     </form>
+        </div>
+      </div>
     </main>
 
-    <footer style="width:100%; box-sizing: border-box; background-color:#e31313; padding: 10px; height:60px; margin:0;">
+    <footer class="container-fluid py-2">
         <div>
-            <p style="color: #ffffff;"> (c) 5uchn34tk1d ^_^</p>
+            <p class="mt-3 mb-0"> (c) 5uchn34tk1d ^_^</p>
         </div>
     </footer>
 </body>
